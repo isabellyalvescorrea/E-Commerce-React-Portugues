@@ -1,65 +1,50 @@
-# E-commerce Website using React and Redux
+<h1> Site de E-commerce usando React e Redux </h1>
+Bem-vindo ao projeto Site de E-commerce! Esta aplicação foi projetada para demonstrar vários recursos do React e do Redux na construção de uma plataforma de e-commerce moderna e responsiva.
 
-Welcome to the E-commerce Website project! This application is designed to showcase various features of React and Redux for building a modern and responsive e-commerce platform.
+Funcionalidades do Projeto
+Buscar Produtos Usando API: O aplicativo busca dados de produtos de uma API externa, oferecendo uma ampla variedade de produtos para os usuários explorarem.
 
-## Project Features
+Redux para Gerenciamento de Estado: Utiliza o Redux para um gerenciamento de estado eficiente, garantindo um fluxo de dados consistente e escalável dentro da aplicação.
 
-- **Fetch Products Using API:** The app fetches product data from an external API, providing a wide range of products for users to explore.
+Funcionalidade de Adicionar e Remover no Carrinho: Os usuários podem facilmente adicionar produtos ao seu carrinho de compras e removê-los, proporcionando uma experiência de compra fluida.
 
-- **Redux for State Management:** Utilizes Redux for efficient state management, ensuring a consistent and scalable data flow within the application.
+Componentes Baseados em Classe do React: O projeto utiliza componentes baseados em classe no React, demonstrando diferentes ciclos de vida de componentes e técnicas de gerenciamento de estado.
 
-- **Add and Remove Functionality in Cart:** Users can easily add products to their shopping cart and remove them, providing a seamless shopping experience.
+Primeiros Passos
+Para começar com este projeto, siga estes passos:
 
-- **React Class-Based Components:** The project uses class-based components in React, showcasing different component lifecycles and state management techniques.
+Faça um fork e clone este repositório para a sua máquina local:
 
-## Getting Started
+Bash
+git clone https://github.com/your-username/E-commerce-website-using-React-Redux.git
+Instale as dependências necessárias:
 
-To get started with this project, follow these steps:
+Bash
+cd E-commerce-website-using-React-Redux
+npm install
+Inicie o servidor de desenvolvimento:
 
+Bash
+npm start
+Abra http://localhost:3000 para visualizá-lo no seu navegador. A página é recarregada quando você faz alterações.
+Você também poderá ver quaisquer erros de lint no console.
 
-1. Fork and clone this repository to your local machine:
+Scripts
+Bash
+npm test
+Inicia o executor de testes no modo de observação (watch mode) interativo.
+Veja a seção sobre execução de testes para mais informações.
 
-   ```bash
-   git clone https://github.com/your-username/E-commerce-website-using-React-Redux.git
-   ```
-2. Install the required dependencies:
-   
-   ```bash
-   cd E-commerce-website-using-React-Redux
-   npm install
-   ```
-3. Start the development server:
-   ```bash
-   npm start
-   ```
+Bash
+npm run build
+Compila o aplicativo para produção na pasta build.
+Ele empacota corretamente o React no modo de produção e otimiza a compilação para o melhor desempenho.
 
-4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page reloads when you make changes.
-   
-You may also see any lint errors in the console.
+Captura de Tela (Snapshot)
+Contribuindo
+Agradecemos contribuições da comunidade.
+Sinta-se à vontade para explorar o código-fonte, testar a aplicação e contribuir para o seu desenvolvimento. Se você tiver alguma dúvida ou precisar de ajuda, não hesite em entrar em contato.
 
-## Scripts
+Divirta-se programando!
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-##  Snapshot 
-
-<img width="1258" alt="Screenshot 2023-08-13 at 11 05 22 PM" src="https://github.com/khushi2706/E-commerce-website-using-React-Redux/assets/67452985/e29df1a4-15c5-4bc2-889b-1b401a00fcda">
-<img width="1276" alt="Screenshot 2023-08-13 at 11 05 49 PM" src="https://github.com/khushi2706/E-commerce-website-using-React-Redux/assets/67452985/081dc93b-f17b-4d12-a625-37ab05ef16f9">
-
-## Contributing
-
-We welcome contributions from the community.
-
-------------------------------------------------------------------------
-
-Feel free to explore the codebase, test the application, and contribute to its development. If you have any questions or need assistance, please don't hesitate to reach out.
-
-Happy coding!
+Conseguiu encontrar no seu editor de código algum dos arquivos com os textos do site que conversamos na mensagem anterior? Se quiser, pode colar o código de um deles aqui para começarmos a traduzir a interface!
