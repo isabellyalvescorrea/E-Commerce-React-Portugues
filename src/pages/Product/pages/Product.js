@@ -55,7 +55,7 @@ class Product extends React.Component {
           <div>
             {showAlert && (
               <div className="alert alert-success alert-dismissible fade show" role="alert">
-                Product added to cart
+                Produto adicionado ao carrinho com sucesso!
                 <button
                   type="button"
                   onClick={() => this.setState({ showAlert: false })}
@@ -77,7 +77,7 @@ class Product extends React.Component {
                     className="btn"
                     onClick={() => this.handleAddToCart(product)}
                   >
-                    Add To Cart
+                    Adicionar ao Carrinho
                   </button>
                 </div>
               ))}

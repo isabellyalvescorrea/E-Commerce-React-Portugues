@@ -26,7 +26,7 @@ const CartProductCard = ({ product, onRemove,increase,decrease }) => {
     className="cart-card-remove"
     onClick={() => onRemove(product.id)}
   >
-    Remove
+    Remover
   </button>
 </div>
 

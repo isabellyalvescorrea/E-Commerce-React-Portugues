@@ -87,7 +87,7 @@ export default class Cart extends Component {
         </div>
 
         <div className="checkout-section">
-          <h3>Total Price: ${totalPrice.toFixed(2)}</h3>
+          <h3>Total Preço: ${totalPrice.toFixed(2)}</h3>
           <form onSubmit={this.handleSubmit} className="checkout-form">
             <div className="form-group">
               <label htmlFor="email">Email</label>
@@ -130,16 +130,16 @@ export default class Cart extends Component {
             </div>
 
             <div className="form-group">
-              <label htmlFor="city">City</label>
+              <label htmlFor="cidade">Cidade</label>
               <input
                 type="text"
-                id="city"
-                name="city"
-                value={this.state.city}
+                id="cidade"
+                name="cidade"
+                value={this.state.cidade}
                 onChange={this.handleInputChange}
-                className={`form-input ${errors.city ? "input-error" : ""}`}
+                className={`form-input ${errors.cidade ? "input-error" : ""}`}
               />
-              {errors.city && <p className="error-message">{errors.city}</p>}
+              {errors.cidade && <p className="error-message">{errors.cidade}</p>}
             </div>
 
             <div className="form-group">
